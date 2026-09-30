@@ -2,7 +2,7 @@
 
 [![Android CI](https://github.com/ch6vip/lsposed-bili-sponsorblock/actions/workflows/android.yml/badge.svg)](https://github.com/ch6vip/lsposed-bili-sponsorblock/actions/workflows/android.yml)
 [![Release](https://img.shields.io/github/v/release/ch6vip/lsposed-bili-sponsorblock)](https://github.com/ch6vip/lsposed-bili-sponsorblock/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/LICENSE)
 
 Bili2233 是一个需要 LSPosed 框架的模块。它使用 SponsorBlock 社区片段数据，在哔哩哔哩**国际版**播放视频时
 自动跳过或标记赞助内容、片头、自我推广、互动提醒等片段。只改本机播放行为：不登录、不接管账号、无遥测。
@@ -29,7 +29,7 @@ Bili2233 是一个需要 LSPosed 框架的模块。它使用 SponsorBlock 社区
 | 运行环境 | 已 Root（KernelSU / Magisk），安装支持 **libxposed API 101** 的 LSPosed |
 
 6.5.0 与 6.6.0 均已在真机完成回归。其他版本可能无法正常工作——宿主每次改版都可能重命名 Hook 目标类，
-更新哔哩哔哩后如遇失效，请先确认客户端版本是否仍受支持（适配方法见 [`tools/dexscan/README.md`](tools/dexscan/README.md)）。
+更新哔哩哔哩后如遇失效，请先确认客户端版本是否仍受支持（适配方法见 [`tools/dexscan/README.md`](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/tools/dexscan/README.md)）。
 
 ## 功能
 
@@ -62,7 +62,7 @@ Bili2233 是一个需要 LSPosed 框架的模块。它使用 SponsorBlock 社区
    `Bili2233-vX.Y.Z.apk`，像普通应用一样安装。发布包用固定密钥签名，可直接覆盖升级——
    请认准证书指纹，别装来路不明的二次打包版：
    `SHA-256 16:9C:2F:C3:A7:E5:C7:93:6B:D8:72:5E:D4:2E:36:AB:DF:68:E7:64:31:C4:DF:5D:25:CC:D6:7A:73:42:E9:DF`
-   （debug 包与构建方法见[开发者文档](docs/RELEASING.md)）。
+   （debug 包与构建方法见[开发者文档](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/docs/RELEASING.md)）。
 2. 打开 **LSPosed** 管理界面，启用 **Bili2233** 模块。
 3. 作用域**只勾**「哔哩哔哩国际版」（`com.bilibili.app.in`），不需要勾系统框架。
 4. **强制停止哔哩哔哩**后重新打开，模块即生效。
@@ -131,7 +131,7 @@ SponsorBlock 设置需重进播放页；「B 站增强」开关约 10 秒内热�
 - [BiliRoaming](https://github.com/yujincheng08/BiliRoaming) / [BiliRoamingX](https://github.com/BiliRoamingX/BiliRoamingX) —— 思路参考
 - [LSPosed](https://github.com/LSPosed/LSPosed) / [libxposed](https://github.com/libxposed) —— 框架与 API
 
-开发者文档（架构、Hook 点对照、真机验证、构建与发布流程）见 [`docs/`](docs/) 与 [`docs/RELEASING.md`](docs/RELEASING.md)。
+开发者文档（架构、Hook 点对照、真机验证、构建与发布流程）见 [`docs/`](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/docs/) 与 [`docs/RELEASING.md`](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/docs/RELEASING.md)。
 
 ## 链接
 
@@ -140,4 +140,4 @@ SponsorBlock 设置需重进播放页；「B 站增强」开关约 10 秒内热�
 
 ## 许可
 
-[MIT](LICENSE) © 2026 ch6vip
+[MIT](https://github.com/ch6vip/lsposed-bili-sponsorblock/blob/master/LICENSE) © 2026 ch6vip
